@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const template = require('./src/template');
+const makeTemplate = require('./src/template');
 
 const questions = [
     // Licensing
@@ -130,3 +130,13 @@ function createREADME(data) {
         err ? console.log(error) : console.log('Success! Information transferred to the README!')
     });
 };
+
+function input() {
+    inquirer.prompt(questions)
+    .then(function (userInput) {
+        console.log(userInput)
+        createREADME(makeTemplate(userInput));
+    });
+};
+
+input();
