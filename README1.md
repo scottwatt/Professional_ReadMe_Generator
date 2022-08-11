@@ -46,11 +46,11 @@ THEN I am taken to the corresponding section of the README
 ## Installation:
 Download it through GitHub
 ## Usage:
-*Open terminal
+- Open terminal
 
-*Type 'node index'
+- Type 'node index'
 
-*Answer prompted questions
+- Answer prompted questions
 
 ## License:
 MIT
