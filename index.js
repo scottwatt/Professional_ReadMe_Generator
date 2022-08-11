@@ -18,7 +18,7 @@ const questions = [
             }
         }
     },
-    // Project name
+    // Application name
     {
         type: 'input',
         name: 'title',
@@ -123,3 +123,10 @@ const questions = [
         message: 'Please insert your email!',
     },
 ];
+
+// Function to write README file
+function createREADME(data) {
+    fs.writeFile('README.md', data, (err) => {
+        err ? console.log(error) : console.log('Success! Information transferred to the README!')
+    });
+};
