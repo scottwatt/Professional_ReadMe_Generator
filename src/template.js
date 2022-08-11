@@ -1,5 +1,6 @@
 function makeTemplate(data) {
-    return `# ${data.title}
+    return `
+    # ${data.title}
     ## Licensing:
     [![license](https://img.shields.io/badge/license-${data.licensing}-blue)](https://shields.io)
     ## Table of Contents 
@@ -23,7 +24,8 @@ function makeTemplate(data) {
     ${data.testing}
     ## Additional Info:
     - Github: [${data.github}](https://github.com/${data.github})
-    - Email: ${data.email} `;
+    - Email: ${data.email} 
+    `;
   }
   
   module.exports = makeTemplate;
