@@ -12,6 +12,9 @@
 ## Description:
 Uses javascript and node to ask user for information about application and writes a README.md based on the user input.
 
+## Live Demonsstration
+![README Generator Demo](./screenshot/demo.gif)
+
 ### Acceptance Criteria
 GIVEN a command-line application that accepts user input
 
