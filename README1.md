@@ -12,7 +12,7 @@
 ## Description:
 Uses javascript and node to ask user for information about application and writes a README.md based on the user input.
 
-## Live Demonsstration
+## Live Demonstration
 ![README Generator Demo](./screenshot/demo.gif)
 
 ### Acceptance Criteria
