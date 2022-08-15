@@ -126,7 +126,7 @@ const questions = [
 
 // Function to write README file
 function createREADME(data) {
-    fs.writeFile('README.md', data, (err) => {
+    fs.writeFile('sampleREADME.md', data, (err) => {
         err ? console.log(error) : console.log('Success! Information transferred to the README!')
     });
 };
